@@ -1,0 +1,132 @@
+body {
+  font: 400 15px "Josefin Sans", sans-serif;
+  line-height: 1.8;
+  color: #000000;
+  background-color:#dddddd;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.col-sm-6 img{
+  height: 600px;
+  width: 650px;
+}
+
+.col-sm-8 h4{
+  font-size: 22px;
+}
+
+.col-sm-4 img{
+  height: 300px;
+  width: 400px;
+}
+
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.jumbotron {
+  background-image: url("assets/images/Gardner Logo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color:#4a4e69;
+  height: 450px;
+  font-family: 'Lobster', sans-serif;
+  background-color:#E0D0DD;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+  max-width: 100%;
+
+}
+.navbar-brand img{
+  border: 0;
+  height: 50px;
+  width: 275px;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: transparent;
+
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  letter-spacing: 4px;
+  font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #000000 !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #feeafa !important;
+  background-color: #8e9aaf !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.projects{
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.projects-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.projects-info{
+    padding: 20px;
+    flex-basis: 50%;
+    background-color: white;
+    height: 100%px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#c8c7d5;
+
+}
+
+.projects-info h2{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.projects-info p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.projects-img img{
+    /*flex-basis: 50%;
+    width: 150px;
+    height: 400px;
+    overflow: visible;
+    position: relative;
+    */
+    width: 400px;
+    height: 400px;
+}
+.project-title{
+  text-align: center;
+}
